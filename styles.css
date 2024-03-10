@@ -1,0 +1,99 @@
+body {
+    font-family: "roboto mono", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+}
+h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+/* div {
+    width: 50%;
+    margin: 0 auto;
+} */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+#eventName {
+    width: 300px;
+    padding: 12px 20px;
+    font-size: 1.5rem;
+    font-family: "roboto mono", sans-serif;
+    text-align: center;
+    border: 2px solid rgb(60, 193, 255);
+    border-radius: 10px;
+}
+
+#timeSelect #dateSelect {
+    font-family: "roboto mono", sans-serif;
+    font-size: 1.5rem;
+}
+.dateSelect {
+    font-family: "roboto mono", sans-serif;
+    font-size: 1.5rem;
+    /* width: 100%; */
+    font-size: 1rem;
+    padding: 8px 15px;
+    background-color: #fff;
+    border: 2px solid rgb(60, 193, 255);
+    border-radius: 10px;
+    color: #000;
+    cursor: pointer;
+    text-align: center;
+    float: right;
+}
+#tickbox {
+    font-family: "roboto mono", sans-serif;
+}
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    font-size: 1rem;
+    padding: 8px 50px;
+    background-color: #fff;
+    border: 2px solid rgb(60, 193, 255);
+    border-radius: 10px;
+    color: #000;
+    cursor: pointer;
+    text-align: center;
+    float: right;
+    max-width: 100%;
+    white-space: normal;
+    /* For Firefox: */
+    text-overflow: ellipsis;
+}
+#timezone {
+    /* padding: 0px 0px; */
+    padding: 8px 8px;
+    width: 200px;
+    /* word-wrap: break-word; */
+    /* white-space: normal; */
+    overflow: hidden;
+    white-space: pre;
+    text-overflow: ellipsis;
+    /* -webkit-appearance: none; */
+}
+#submit {
+    display: block;
+    font-family: "roboto mono", sans-serif;
+    appearance: none;
+    -webkit-appearance: none;
+    font-size: 1rem;
+    padding: 8px 50px;
+    background-color: #fff;
+    border: 2px solid rgb(60, 193, 255);
+    border-radius: 10px;
+    color: #000;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+}
